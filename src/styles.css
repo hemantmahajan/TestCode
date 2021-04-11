@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
+.heading1{
+    color:purple;
+    font-family: 'Montserrat','Semi Bold';
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.heading2{
+    color:purple;
+    font-family: 'Montserrat','Semi Bold';
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-bottom: 10px;
+
+}
+
+.content1{
+    color:rgb(44, 42, 42);
+    font-family: 'Montserrat','Semi Bold';
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading2:hover{
+    box-shadow: 12px 12px 2px 1px rgba(104, 104, 236, 0.2);
+}
+
+.rectangle{
+    width:124px;
+    height: 162px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(27, 27, 27, 0.2);
+}
+
+.div1{
+    width:16.16%;
+    display: inline;
+}
+
+.operationDiv{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:15px;
+    float:left;
+    width:124px;
+    text-align: center;
+  }
+
+  .two_chars{
+    /* width: 20ch; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-weight: 600px;
+  }
+
+  .two_chars1{
+    /* width: 20ch; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: grey;
+  }
+
+  .rectangle:hover{
+    box-shadow: 5px 5px 5px 5px rgba(5, 5, 5, 0.2);
+  }
+
+  .errMsg{
+    color: rgb(180, 7, 7);
+  }

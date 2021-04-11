@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class='heading1'>
+        BOOK Store
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="content1">
+        Explore no. of books for free
+      </p>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-md-6" *ngFor="let cat of categories">
+       
+        <mat-card class="heading2" (click)="listBooks(cat)">{{cat}} <span style="float: right;"><mat-icon>arrow_forwards</mat-icon></span> </mat-card>
+
+    </div>
+  </div>
+
+
+
+</div>
